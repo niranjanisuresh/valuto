@@ -1,32 +1,76 @@
-#PRESENTING VALUTO
-I built Valuto, a full-stack currency converter app, using React.js for the frontend and Spring Boot with Java 21 for the backend. The app lets users easily convert currency values between international standards in real-time. I designed a clean, responsive UI with React hooks and integrated it with a robust REST API built in Spring Boot.
-During development, I tackled real-world challenges such as CORS policy hurdles by configuring cross-origin resource sharing properly in the backend, and data format mismatches by adjusting frontend parsing methods. I also structured the project for scalability by separating frontend and backend codebases, enabling independent development and deployment.
-I deployed the frontend on Vercel and backend on Heroku, gaining hands-on experience with cloud deployment and environment variable management. This project enhanced my skills in asynchronous API handling, Java backend development, and deployment workflows.
-Moving forward, I plan to integrate live exchange rate APIs and build a richer user experience with currency selectors and historical rate charts. This project is a demonstration of my full-stack competence, attention to detail, and ability to deliver user-focused solutions.”
+# 💱 Valuto — Currency Converter
 
-Project Overview
-Project name:
-        Valuto — Currency Converter
-Technologies:
-        React.js, Java Spring Boot
-Key goal: 
-        Accurate, real-time currency conversion
+Valuto is a **full-stack currency converter app** built with **React.js** (frontend) and **Spring Boot with Java 21** (backend).  
+It allows users to **convert currency values between international standards in real-time** with a clean, responsive UI.
 
-Architecture:
-Frontend (valuto) - React SPA
-Backend (backend) - Spring Boot REST API
-Communication: REST calls with query params
+## 🚀 Features
+- 🌍 Convert between multiple international currencies  
+- ⚡ Real-time, accurate conversion  
+- 🎨 Responsive and clean UI with React Hooks  
+- 🔗 Robust REST API built with Spring Boot  
+- ☁️ Cloud-deployed frontend & backend  
+- 🔐 Environment variable configuration for secure API URLs  
+## 🛠️ Tech Stack
+**Frontend:** React.js, React Hooks, CSS  
+**Backend:** Java 21, Spring Boot (REST API)  
+**Deployment:** Vercel (frontend), Heroku (backend)  
+**Others:** REST APIs, JSON parsing, CORS handling  
 
-Challenges & Solutions
-CORS errors — Solved with Spring’s @CrossOrigin
-API response parsing — Adjusted frontend from JSON to text
-Deployment orchestration — Vercel + Heroku
+## 🏗️ Architecture
+- **Frontend (`valuto`)**: React Single Page Application (SPA)  
+- **Backend (`backend`)**: Spring Boot REST API  
+- **Communication:** REST calls with query parameters  
 
-Deployment
-Frontend hosted on Vercel
-Backend deployed on Heroku
-Environment variable configuration for API URLs
+## ⚙️ Installation & Setup
 
-What I Learned & Next Steps
-Skills gained: Full-stack integration, deployment, problem-solving
-Future: API enhancements, UX improvements, testing
+### 1️⃣ Backend (Spring Boot)
+```bash
+# Clone the repository
+git clone https://github.com/your-username/valuto.git
+cd valuto/backend
+
+# Build & run
+./mvnw spring-boot:run
+
+### 2️⃣ Frontend (React)
+
+```bash
+cd valuto/frontend
+
+# Install dependencies
+npm install
+
+# Run locally
+npm start
+
+### 3️⃣ Deployment
+
+* **Frontend:** Hosted on [Vercel]
+* **Backend:** Deployed on [Heroku]
+* **Environment Variables:** Used for API URLs
+
+## 🧩 Challenges & Solutions
+
+* **CORS Policy Errors** → Solved with Spring’s `@CrossOrigin` annotation
+* **API Response Parsing** → Adjusted frontend parsing methods (JSON ↔ text)
+* **Deployment Issues** → Configured environment variables for smooth Vercel + Heroku integration
+
+## 📚 What I Learned
+
+* Full-stack integration with React + Spring Boot
+* Handling **CORS** in real-world projects
+* Cloud deployment workflows (Vercel + Heroku)
+* Working with **asynchronous APIs** and JSON data formats
+
+## 🔮 Future Improvements
+
+* 🌐 Integration with **live exchange rate APIs**
+* 📊 Historical charts for currency trends
+* 🧪 Unit & integration testing for reliability
+* 🎛️ Richer UX with currency selectors
+
+## 👩‍💻 Author
+
+**Niranjani S**
+🚀 Aspiring Full-Stack Developer | Passionate about building scalable, user-focused apps
+
